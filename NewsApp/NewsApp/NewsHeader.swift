@@ -9,22 +9,23 @@
 import SwiftUI
 
 struct NewsHeader: View {
+    @State var selection: String? = nil
     var body: some View {
         VStack(alignment: .leading, spacing: 0){
             HStack{
-                Image(systemName: "largecircle.fill.circle")
-                Text("News").bold()
-                Image(systemName: "plus")
+                DropDown()
+                Text("G's News").bold()
                 Spacer()
             }
             .foregroundColor(.black)
             .font(.largeTitle)
             
-            Text("Top Headlines")
+            Text("Top US Headlines")
                 .foregroundColor(.gray)
                 .font(.largeTitle)
         }.padding(.horizontal)
             .padding(.vertical, 10)
+    
     }
 }
 

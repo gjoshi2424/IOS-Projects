@@ -24,6 +24,18 @@
 		14684BB124F5E81100887B85 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14684BB024F5E81100887B85 /* NewsCell.swift */; };
 		14684BB424F6208400887B85 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14684BB324F6208400887B85 /* WebView.swift */; };
 		14684BB624F6214700887B85 /* NewsArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14684BB524F6214700887B85 /* NewsArticleView.swift */; };
+		14E9836A24F9DD4100AF1783 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E9836924F9DD4100AF1783 /* Topic.swift */; };
+		14E9836C24F9E25000AF1783 /* SportsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E9836B24F9E25000AF1783 /* SportsHeader.swift */; };
+		14E9837024FA239100AF1783 /* SportsNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E9836F24FA239100AF1783 /* SportsNews.swift */; };
+		14E9837224FAE11300AF1783 /* BusinessHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E9837124FAE11300AF1783 /* BusinessHeader.swift */; };
+		14E9837424FAE15D00AF1783 /* BusinessNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E9837324FAE15D00AF1783 /* BusinessNews.swift */; };
+		14E9837624FAE33400AF1783 /* EntertainmentHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E9837524FAE33400AF1783 /* EntertainmentHeader.swift */; };
+		14E9837824FAE36800AF1783 /* EntertainmentNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E9837724FAE36800AF1783 /* EntertainmentNews.swift */; };
+		14E9837A24FAE54B00AF1783 /* TechnologyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E9837924FAE54B00AF1783 /* TechnologyHeader.swift */; };
+		14E9837C24FAE57200AF1783 /* TechnologyNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E9837B24FAE57200AF1783 /* TechnologyNews.swift */; };
+		14E9837E24FAE69800AF1783 /* HealthHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E9837D24FAE69800AF1783 /* HealthHeader.swift */; };
+		14E9838024FAE6BB00AF1783 /* HealthNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E9837F24FAE6BB00AF1783 /* HealthNews.swift */; };
+		14E9838224FAE7C000AF1783 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E9838124FAE7C000AF1783 /* DropDown.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +58,18 @@
 		14684BB024F5E81100887B85 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		14684BB324F6208400887B85 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		14684BB524F6214700887B85 /* NewsArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsArticleView.swift; sourceTree = "<group>"; };
+		14E9836924F9DD4100AF1783 /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
+		14E9836B24F9E25000AF1783 /* SportsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsHeader.swift; sourceTree = "<group>"; };
+		14E9836F24FA239100AF1783 /* SportsNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsNews.swift; sourceTree = "<group>"; };
+		14E9837124FAE11300AF1783 /* BusinessHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessHeader.swift; sourceTree = "<group>"; };
+		14E9837324FAE15D00AF1783 /* BusinessNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessNews.swift; sourceTree = "<group>"; };
+		14E9837524FAE33400AF1783 /* EntertainmentHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntertainmentHeader.swift; sourceTree = "<group>"; };
+		14E9837724FAE36800AF1783 /* EntertainmentNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntertainmentNews.swift; sourceTree = "<group>"; };
+		14E9837924FAE54B00AF1783 /* TechnologyHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnologyHeader.swift; sourceTree = "<group>"; };
+		14E9837B24FAE57200AF1783 /* TechnologyNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnologyNews.swift; sourceTree = "<group>"; };
+		14E9837D24FAE69800AF1783 /* HealthHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthHeader.swift; sourceTree = "<group>"; };
+		14E9837F24FAE6BB00AF1783 /* HealthNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthNews.swift; sourceTree = "<group>"; };
+		14E9838124FAE7C000AF1783 /* DropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +160,17 @@
 				14684BAE24F5E80000887B85 /* NewsListView.swift */,
 				14684BB024F5E81100887B85 /* NewsCell.swift */,
 				14684BB524F6214700887B85 /* NewsArticleView.swift */,
+				14E9836B24F9E25000AF1783 /* SportsHeader.swift */,
+				14E9836F24FA239100AF1783 /* SportsNews.swift */,
+				14E9837124FAE11300AF1783 /* BusinessHeader.swift */,
+				14E9837324FAE15D00AF1783 /* BusinessNews.swift */,
+				14E9837524FAE33400AF1783 /* EntertainmentHeader.swift */,
+				14E9837724FAE36800AF1783 /* EntertainmentNews.swift */,
+				14E9837924FAE54B00AF1783 /* TechnologyHeader.swift */,
+				14E9837B24FAE57200AF1783 /* TechnologyNews.swift */,
+				14E9837D24FAE69800AF1783 /* HealthHeader.swift */,
+				14E9837F24FAE6BB00AF1783 /* HealthNews.swift */,
+				14E9838124FAE7C000AF1783 /* DropDown.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -152,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				14684BA424F5BB0900887B85 /* NetworkManager.swift */,
+				14E9836924F9DD4100AF1783 /* Topic.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -237,18 +273,30 @@
 			files = (
 				14684BB624F6214700887B85 /* NewsArticleView.swift in Sources */,
 				14684BA524F5BB0900887B85 /* NetworkManager.swift in Sources */,
+				14E9837024FA239100AF1783 /* SportsNews.swift in Sources */,
+				14E9837624FAE33400AF1783 /* EntertainmentHeader.swift in Sources */,
+				14E9837A24FAE54B00AF1783 /* TechnologyHeader.swift in Sources */,
 				14684B8724F5B6CE00887B85 /* AppDelegate.swift in Sources */,
+				14E9837C24FAE57200AF1783 /* TechnologyNews.swift in Sources */,
 				14684BB424F6208400887B85 /* WebView.swift in Sources */,
 				14684BAB24F5CD0600887B85 /* NewsHeader.swift in Sources */,
+				14E9838024FAE6BB00AF1783 /* HealthNews.swift in Sources */,
+				14E9836A24F9DD4100AF1783 /* Topic.swift in Sources */,
 				14684B8924F5B6CE00887B85 /* SceneDelegate.swift in Sources */,
 				14684B9F24F5B8C400887B85 /* News.swift in Sources */,
+				14E9837E24FAE69800AF1783 /* HealthHeader.swift in Sources */,
+				14E9837424FAE15D00AF1783 /* BusinessNews.swift in Sources */,
 				14684BAF24F5E80000887B85 /* NewsListView.swift in Sources */,
 				14684BA724F5C2A200887B85 /* NewsViewModel.swift in Sources */,
 				14684B8B24F5B6CE00887B85 /* ContentView.swift in Sources */,
 				14684BA224F5B9E200887B85 /* API.swift in Sources */,
 				14684BA924F5C3DA00887B85 /* NewsListVM.swift in Sources */,
+				14E9838224FAE7C000AF1783 /* DropDown.swift in Sources */,
 				14684BB124F5E81100887B85 /* NewsCell.swift in Sources */,
+				14E9837824FAE36800AF1783 /* EntertainmentNews.swift in Sources */,
 				14684BAD24F5E66300887B85 /* NewsHome.swift in Sources */,
+				14E9837224FAE11300AF1783 /* BusinessHeader.swift in Sources */,
+				14E9836C24F9E25000AF1783 /* SportsHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

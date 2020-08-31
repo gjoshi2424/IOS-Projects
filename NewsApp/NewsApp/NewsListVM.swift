@@ -12,12 +12,12 @@ class NewsListVM : ObservableObject{
     @Published var news = [NewsViewModel]()
     @Published var imageData = [String: Data]()
     
-    func load(){
-        getNews()
+    func load(current: Topic){
+        getNews(current)
     }
-    private func getNews(){
+    private func getNews(_ current: Topic){
         let networkManager = NetworkManager()
-        networkManager.getNews{ (newsArticles) in
+        networkManager.getNews(cur: current){ (newsArticles) in
             guard let news = newsArticles else{return}
             
             let newsVM = news.map(NewsViewModel.init)

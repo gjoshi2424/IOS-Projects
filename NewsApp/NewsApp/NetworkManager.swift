@@ -8,13 +8,34 @@
 
 import Foundation
 
+
+
 class NetworkManager {
     private let baseUrlString = "https://newsapi.org/v2/"
     
-    private let usTopHeadline = "top-headlines?country=us"
+    //private let usTopHeadline = "top-headlines?country=us"
     
-    func getNews(completion: @escaping (([News]?) -> Void)){
-        let urlString = "\(baseUrlString)\(usTopHeadline)&apiKey=\(API.key)"
+    
+    private func getTopicURL(on current: Topic) -> String{
+        switch current{
+            
+            case .home:
+                return "top-headlines?country=us"
+            case .sports:
+                return "top-headlines?country=us&category=sports"
+            case .business:
+                return "top-headlines?country=us&category=business"
+            case .entertainment:
+                return "top-headlines?country=us&category=entertainment"
+            case .tech:
+                return "top-headlines?country=us&category=technology"
+            case .health:
+                return "top-headlines?country=us&category=health"
+        }
+    }
+    
+    func getNews(cur: Topic, completion: @escaping (([News]?) -> Void)){
+        let urlString = "\(baseUrlString)\(self.getTopicURL(on: cur))&apiKey=\(API.key)"
         guard let url = URL(string: urlString) else{
             completion(nil)
             return

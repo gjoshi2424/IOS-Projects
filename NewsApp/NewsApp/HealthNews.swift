@@ -1,38 +1,29 @@
 //
-//  NewsHome.swift
+//  HealthNews.swift
 //  NewsApp
 //
-//  Created by Gaurav Joshi on 8/25/20.
+//  Created by Gaurav Joshi on 8/29/20.
 //  Copyright © 2020 Gaurav Joshi. All rights reserved.
 //
 
 import SwiftUI
-import UIKit
 
-
-struct NewsHome: View {
-    //Listen for changes
+struct HealthNews: View {
     @ObservedObject private var newsListVM = NewsListVM()
-    //@State var selection: String? = nil
+        
     init(){
-        newsListVM.load(current: .home)
+        newsListVM.load(current: .health)
     }
-    
     var body: some View {
-       
         VStack{
-            NewsHeader()
+            HealthHeader()
             NewsListView(newsCollection: self.newsListVM.news, imageData: self.newsListVM.imageData)
-            
-            }
         }
-    
-    
+    }
 }
 
-
-struct NewsHome_Previews: PreviewProvider {
+struct HealthNews_Previews: PreviewProvider {
     static var previews: some View {
-        NewsHome()
+        HealthNews()
     }
 }
